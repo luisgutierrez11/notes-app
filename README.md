@@ -167,7 +167,7 @@ En el backend, crea un archivo `.env` con la siguiente información:
 
 ![Add expense](./screenshots/add-note.png)
 
-### Vista móvil (opcional)
+### Vista móvil
 
 ![Mobile](./screenshots/mobile-dashboard.png)
 ![Mobile](./screenshots/mobile-login.png)
