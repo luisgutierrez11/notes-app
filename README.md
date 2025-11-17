@@ -12,6 +12,7 @@ Desarrollada con **React + Redux** en el frontend y **Node.js + Express + MongoD
 ![Express](https://img.shields.io/badge/Express.js-black)
 ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
 
 ---
 
