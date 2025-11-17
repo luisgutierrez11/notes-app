@@ -43,6 +43,15 @@ Desarrollada con **React + Redux** en el frontend y **Node.js + Express + MongoD
 
 ---
 
+## ✨ Funcionalidades
+
+- Registro e inicio de sesión
+- Crear nuevas notas
+- Marcar notas como importantes
+- Editar notas existentes
+- Ver solo notas importantes
+- Eliminar notas
+
 ## ⚙️ Instalación y ejecución
 
 ### 1. Clonar el repositorio
