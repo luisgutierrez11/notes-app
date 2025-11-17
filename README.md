@@ -163,7 +163,7 @@ En el backend, crea un archivo `.env` con la siguiente información:
 
 ![Dashboard](./screenshots/dashboard.png)
 
-### Agregar gasto
+### Agregar nota
 
 ![Add expense](./screenshots/add-note.png)
 
