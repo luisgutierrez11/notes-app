@@ -58,7 +58,7 @@ Desarrollada con **React + Redux** en el frontend y **Node.js + Express + MongoD
 ### 1. Clonar el repositorio
 
 ```
-    git clone https://github.com/tu-usuario/notas-app.git
+    git clone https://github.com/luisgutierrez11/notes-app
     cd notas-app
 ```
 
