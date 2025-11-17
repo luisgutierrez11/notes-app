@@ -4,7 +4,7 @@ import { logoutUser } from '../features/auth/authSlice'
 
 // ✅ Cliente Axios preconfigurado
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: import.meta.env.VITE_API_URL
 })
 
 // ✅ Interceptor global para manejar errores

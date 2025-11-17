@@ -1,4 +1,4 @@
-import axios from 'axios'
+import api from "./api"
 
 // URL base del endpoint de usuarios
 const baseUrl = '/api/users'
@@ -7,7 +7,7 @@ const baseUrl = '/api/users'
 // Recibe un objeto con username, name y password
 // Envía los datos al backend mediante POST y retorna el usuario creado
 const register = async (newUser) => {
-  const response = await axios.post(baseUrl, newUser) // Envía el nuevo usuario
+  const response = await api.post(baseUrl, newUser) // Envía el nuevo usuario
   return response.data // Retorna los datos del usuario creado
 }
 

@@ -1,4 +1,4 @@
-import axios from 'axios'
+import api from './api'
 
 // URL base del endpoint de login
 const baseUrl = '/api/login'
@@ -7,7 +7,7 @@ const baseUrl = '/api/login'
 // Recibe las credenciales (username y password) y realiza un POST al backend
 // Devuelve los datos del usuario + token retornados por la API
 const login = async credentials => {
-  const response = await axios.post(baseUrl, credentials) // Envia credenciales al servidor
+  const response = await api.post(baseUrl, credentials) // Envia credenciales al servidor
   return response.data // Retorna la respuesta útil
 }
 

@@ -2,7 +2,7 @@
 import api from './api'
 
 // Endpoint base para las notas
-const baseUrl = '/notes'
+const baseUrl = '/api/notes'
 
 // Token para manejar la autenticación del usuario
 let token = null
