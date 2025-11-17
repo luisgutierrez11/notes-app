@@ -1,6 +1,6 @@
 # 📝 Notas App
 
-Aplicación web para crear, editar y eliminar notas.  
+Aplicación de notas con autenticación, persistencia en MongoDB y una interfaz simple para crear, editar y marcar notas como importantes.
 Desarrollada con **React + Redux** en el frontend y **Node.js + Express + MongoDB Atlas** en el backend.
 
 ---
