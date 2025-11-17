@@ -1,0 +1,94 @@
+.note {
+  background-color: #fff;
+  border: 1px solid #e4e4e4;
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.note:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.text {
+  flex: 1;
+  font-size: 1rem;
+  color: #333;
+  transition: color 0.2s ease;
+}
+
+.important {
+  color: #d17f00;
+  font-weight: 600;
+}
+
+.button {
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 0.7rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  margin-left: 0.5rem;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.button:hover {
+  transform: scale(1.03);
+}
+
+/* Variante: marcar importante */
+.buttonImportant {
+  background-color: #fff4dc;
+  color: #b46a00;
+}
+
+.buttonImportant:hover {
+  background-color: #ffe9b6;
+}
+
+/* Variante: eliminar */
+.buttonDanger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.buttonDanger:hover {
+  background-color: #f1b0b7;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 0;
+  margin-top: 1.5rem;
+  list-style: none;
+}
+
+.empty {
+  text-align: center;
+  margin-top: 1rem;
+  color: #666;
+  font-style: italic;
+}
+
+.fadeIn {
+  animation: fadeIn 0.4s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
